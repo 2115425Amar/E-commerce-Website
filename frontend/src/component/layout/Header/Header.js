@@ -1,14 +1,17 @@
 import React from "react";
-import { ReactNavbar } from "overlay-navbar";
-import logo from "../../images/logo.png";
+import  {ReactNavbar}  from "overlay-navbar";
+import logo from "../../../images/logo2.jpg";
+// import { startCase } from "lodash";
 
 const options = {
-  burgerColorHover: "#eb4034",
-   logo,
+  burgerColor: "#FFFFFF",
+  burgerColorHover: "#dc143c",
+  logo,
   logoWidth: "20vmax",
-  navColor1: "white",
+  // navColor1: "#FFFDD0",
+  navColor1: "#14a0dc",
   logoHoverSize: "10px",
-  logoHoverColor: "#eb4034",
+  logoHoverColor: "#dc143c",
   link1Text: "Home",
   link2Text: "Products",
   link3Text: "Contact",
@@ -23,15 +26,15 @@ const options = {
   nav2justifyContent: "flex-end",
   nav3justifyContent: "flex-start",
   nav4justifyContent: "flex-start",
-  link1ColorHover: "#eb4034",
+  link1ColorHover: "#145ddc",
   link1Margin: "1vmax",
   profileIconUrl: "/login",
   profileIconColor: "rgba(35, 35, 35,0.8)",
   searchIconColor: "rgba(35, 35, 35,0.8)",
   cartIconColor: "rgba(35, 35, 35,0.8)",
-  profileIconColorHover: "#eb4034",
-  searchIconColorHover: "#eb4034",
-  cartIconColorHover: "#eb4034",
+  profileIconColorHover: "#dc143c",
+  searchIconColorHover: "#dc143c",
+  cartIconColorHover: "#dc143c",
   cartIconMargin: "1vmax",
 };
 
