@@ -23,7 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         {/* Add more routes as needed */}
       </Routes>
-
+      
       <Footer />
     </Router>
   );
