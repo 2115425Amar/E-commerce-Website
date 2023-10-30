@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# E-CommerceWebsite
-Using MERN
-
->>>>>>> d6a573584cf39d597e96833bcc25be0a6bd1708c
+E-Commerce Project using React.js, Redux, MongoDB, Node.js, Express.js | MERN Stack.
+Seamless shopping, search and explore different product categories, add products to cart, and checkout
+swiftly. Become a seller and add products, monitor sales, and gather customer feedback.)
