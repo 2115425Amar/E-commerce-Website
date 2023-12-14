@@ -4,7 +4,9 @@ import { BrowserRouter as Router, Route,Routes } from "react-router-dom"
 import WebFont from "webfontloader"
 import React, { useEffect } from 'react';
 import Footer from "./component/layout/Footer/Footer.js"
-import Home from  "./component/Home/Home.js"
+import Home from  "./component/Home/Home.js";
+import ProductDetails from "./component/Product/ProductDetails.js";
+
 
 function App() {
   useEffect(() => {
@@ -18,10 +20,12 @@ function App() {
   return (
     <Router>
       <Header />
-
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route extract path="/" element={<Home />} />
+        {/* <Route extract path="/sad" element={<Loader />} /> */}
+        <Route extract path="/product/:id" component={<ProductDetails />} />
         {/* Add more routes as needed */}
+
       </Routes>
       
       <Footer />

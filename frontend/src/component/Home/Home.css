@@ -1,6 +1,6 @@
 .banner {
-   background-image: url("../../images/cover.jfif"); 
-  /* background-image: url("../../images/cover2.jpg"); */
+   /* background-image: url("../../images/cover.jfif");  */
+  background-image: url("../../images/cccc.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .banner > h1 {
@@ -26,7 +26,7 @@
 .banner > a > button {
   margin-bottom: 5vmax;
   cursor: pointer;
-  background-color: white;
+  background-color: rgb(254, 252, 252);
   border: 1px solid white;
   border-radius: 0;
   padding: 1vmax;
